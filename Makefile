@@ -1,3 +1,4 @@
+# Adapted MakeFile from darknet directory
 GPU=1
 CUDNN=0
 CUDNN_HALF=0
