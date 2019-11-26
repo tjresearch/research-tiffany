@@ -1,5 +1,5 @@
 # MakeFile
-# from darknet directory
+# from darknet directory, with GPU setting changed from 0 to 1
 GPU=1
 CUDNN=0
 CUDNN_HALF=0
