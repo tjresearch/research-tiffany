@@ -1,17 +1,18 @@
-﻿Title: Visual Identification of Handicap Parking Passes in Video Footage of Cars
+﻿# Visual Identification of Handicap Parking Passes in Video Footage of Cars
 
-Project Overview: I am creating a program that uses the “You Only Look Once” (YOLO) object detection system to visually identify handicap
+### Project Overview: 
+I am creating a program that uses the “You Only Look Once” (YOLO) object detection system to visually identify handicap
 parking placards in video footage of cars parking in a handicap parking space. This program can hopefully help prevent the illegal use of
 handicap parking spaces by individuals who do not display a handicap parking placard in their car.
 
-Requirements/Dependencies (with links for installation instructions):
+### Requirements/Dependencies (with links for installation instructions):
 1. darknet (requirement for YOLO): https://pjreddie.com/darknet/install/
 2. CUDA (allows you to run YOLO with your GPU): https://developer.nvidia.com/cuda-downloads
 3. OpenCV (allows you to run YOLO on video footage): https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html
 4. Approximately 50 images of handicap parking passes in cars to use to make the training and test set
 4. Using a Linux system is recommended, but this process is still possible on a Windows system
 
-Specific Steps:
+### Specific Steps:
 1. Use OpenCV Python libraries to change the images to black and white using Gaussian Thresholding. This will allow the final program
 to identify handicap parking placards of multiple different colors.
 2. Use the BBox Label Tool to draw a box around a handicap parking pass in images of cars.
