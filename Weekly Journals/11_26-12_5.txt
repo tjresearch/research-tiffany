@@ -1,0 +1,46 @@
+﻿Journal Report 12
+ 11/26/19-12/5/19 
+Tiffany Parise
+ Computer Systems Research Lab 
+Period 4, White
+____________________________________________________________________________
+Daily Logs
+Tuesday, November 26:
+Today, I updated my GitHub page using the specifications you posted on Blackboard.
+Monday, December 2:
+I worked on debugging the run commands for YOLO. I resolved some errors by replacing “./darknet.exe” with just “./darknet” and replacing “detector” with “detect”.
+Tuesday, December 3:
+Today, you helped me set up a Jupyter 26 account and install darknet there. This Jupyter notebook has CUDA 10.1, so I was able to set up darknet using a GPU. Next I started moving over my project files into my Jupyter notebook.
+Thursday, December 5:
+I finished updating the project files in my Jupyter notebook. But I realized that the darknet directory installed there does not contain some directories I believe it should have. In particular, the build directory is missing, and I was planning to cd into that directory and use files contained there to train YOLO. 
+
+
+Timeline:
+Week
+	Goal
+	Met?
+	11/11-11/14
+	Install a GPU or find a substitute
+	Yes
+	11/18-11/21
+	Resolve “Unsupported GNU version” error
+	Yes
+	11/25-11/26
+	Reformat up GitHub page
+	Yes
+	12/2 - 12/5
+	Resolve “Unsupported GNU version” error
+	Yes
+	12/9-12/12
+	Resolve remaining errors and run training program
+	No
+	12/16-12/19
+Winter goal
+	Get YOLO to identify handicap parking passes in photos with 80% accuracy
+	No
+	
+
+Reflection:
+This week, I set up a Jupyter account, so now I am able to successfully use CUDA to run YOLO with a GPU. This resolves a “GNU version not supported” error that I have been working on for about 2 weeks and helps me progress towards my winter goal of training YOLO to identify handicap parking passes with a specific accuracy level. 
+        The next step to training darknet is to cd into subdirectories inside the build directory and run training commands there. However, the darknet directory I installed in my Jupyter project does not have a build directory, even though the darknet directory I installed in the same way on the Syslab Linux computer did have this directory. Next week, I will look into this issue and see if the files I need from inside the build directory were possibly installed in a different directory or if I need to manually install them.
+        In addition, this week I talked to Dr. Gabor, and he gave me advice on my project. He also updated me on the progress of other students with YOLO projects and discussed some problems they worked through that I may also encounter.
