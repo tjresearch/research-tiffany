@@ -21,7 +21,7 @@ to identify handicap parking placards of multiple different colors.
 5. Create two configuration files for YOLO: obj.data and obj.names. Adjust yolo-obj.cfg (the third configuration file) to match your
 settings and number of classes.
 6. Use these 3 configuration files and the training set to train YOLO to identify handicap parking passes. Do this by typing the following
-command into the terminal: darknet.exe detector train cfg/obj.data cfg/yolo-obj.cfg darknet19_448.conv.23
+command into the terminal: ./darknet detector train cfg/obj-training.data cfg/yolo-voc-training.cfg darknet19_448.conv.23
 7. Test the accuracy of your program with the test set.
 8. Use the pre-trained version of YOLO to identify cars in video footage. If a car is present in the video footage for an extended amount
 of time, assume it is a parked car. Only look for handicap parking passes in parked cars.
