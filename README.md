@@ -9,7 +9,7 @@ handicap parking spaces by individuals who do not display a handicap parking pla
 1. darknet (requirement for YOLO): https://pjreddie.com/darknet/install/
 2. CUDA (allows you to run YOLO with your GPU): https://developer.nvidia.com/cuda-downloads
 3. OpenCV (allows you to run YOLO on video footage): https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html
-4. Approximately 50 images of handicap parking passes in cars to use to make the training and test set
+4. Approximately 50 images of handicap parking passes in cars to use to make the training and test sets
 4. Using a Linux system is recommended, but this process is still possible on a Windows system
 
 ### Specific Steps:
