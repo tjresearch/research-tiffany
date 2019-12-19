@@ -17,11 +17,12 @@ handicap parking spaces by individuals who do not display a handicap parking pla
 to identify handicap parking placards of multiple different colors.
 2. Use the BBox Label Tool to draw a box around a handicap parking pass in images of cars.
 3. Convert the coordinates returned by the BBox Label Tool to the correct YOLO format. 
-4. Separate these files into a training set and a test set.
+4. Separate these files into a training set and a test set. Create a file called train.txt that contains a list of the file paths
+of the training set images, and a file called test.txt that contains a list of the file paths of the test set images.
 5. Create two configuration files for YOLO: obj.data and obj.names. Adjust yolo-obj.cfg (the third configuration file) to match your
 settings and number of classes.
-6. Use these 3 configuration files and the training set to train YOLO to identify handicap parking passes. Do this by typing the following
-command into the terminal: ./darknet detector train cfg/obj-training.data cfg/yolo-voc-training.cfg darknet19_448.conv.23
+6. Use these configuration files and the training set to train YOLO to identify handicap parking passes. Do this by typing the following
+command into the terminal: ./darknet detector train obj.data yolo-obj.cfg darknet53.conv.74
 7. Test the accuracy of your program with the test set.
 8. Use the pre-trained version of YOLO to identify cars in video footage. If a car is present in the video footage for an extended amount
 of time, assume it is a parked car. Only look for handicap parking passes in parked cars.
