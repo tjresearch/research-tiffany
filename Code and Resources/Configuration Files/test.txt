@@ -1,0 +1,10 @@
+/cluster/2020tparise/darknet/hpp/042.jpg
+/cluster/2020tparise/darknet/hpp/053.jpg
+/cluster/2020tparise/darknet/hpp/054.jpg
+/cluster/2020tparise/darknet/hpp/019.jpg
+/cluster/2020tparise/darknet/hpp/052.jpg
+/cluster/2020tparise/darknet/hpp/021.jpg
+/cluster/2020tparise/darknet/hpp/027.jpg
+/cluster/2020tparise/darknet/hpp/043.jpg
+/cluster/2020tparise/darknet/hpp/044.jpg
+/cluster/2020tparise/darknet/hpp/051.jpg
